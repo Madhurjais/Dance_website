@@ -1,0 +1,22 @@
+extends base.pug
+
+block script 
+    script(src="index.js")
+block style 
+    style 
+      include style.css 
+block content
+    <h1 align = "center">this is my heading</h1>
+    
+    <section id = "intro">picture </section>
+    <section id="sponser">
+      <div class="card">
+        <div class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque ducimus et animi facilis quis delectus!</div>
+        <div class="img"><img src="../static/dance_academy.jpg" alt="" ></div>
+      </div>
+      <div class="card"> <div class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque ducimus et animi facilis quis delectus!</div>
+      <div class="img"><img src="../static/dance_academy.jpg" alt="" ></div></div>
+      <div class="card"> <div class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque ducimus et animi facilis quis delectus!</div>
+      <div class="img"><img src="../static/dance_academy.jpg" alt="" ></div></div>
+    </section>
+    <footer id="footer"> </footer>

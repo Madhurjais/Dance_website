@@ -1,0 +1,70 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    background-image: linear-gradient(120deg,#ffff00,#e5e500);
+    padding: 10px 5px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: all 1.0s ease-in 0.44s;
+
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 25px;
+    background-color: brown;
+
+}
+#intro{
+    height : 300px;
+    display: flex;
+    color: aqua;
+    font-weight: bolder;
+    font-size: 2rem;
+    background : url("../static/dance_academy.jpg") center / cover no-repeat ;
+    /* background-size: cover; */
+    justify-content: center;
+    align-items: center;
+}
+#sponser{
+    height: 300px;
+    background-image: linear-gradient(120deg,#00cdcd,#9be5dc);
+    z-index: -1;
+    display: flex;
+  
+
+}
+.card{
+    display: flex;
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    border: 2px solid black;
+}
+.img{
+    display: flex;
+    height: inherit;
+}
+img{
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+}
+.content{
+    margin-top: 20px;
+    width: 100px;
+}
+#footer{
+    height: 100px;
+    background-color: antiquewhite;
+}

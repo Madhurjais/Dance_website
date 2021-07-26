@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color: lawngreen;
+}
+.container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+input{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px ;
+    outline: none;
+}
+.btn{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border : 2px solid purple;
+    background-color: red;
+}
